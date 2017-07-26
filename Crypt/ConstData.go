@@ -340,3 +340,10 @@ const (
 	JCODE_KEY = 4595
 	BITS_LEN  = 9 /* 9 bit lzw compression */
 )
+
+type NODE struct {
+	chr     byte
+	parent  int
+	brother int
+	child   int
+}
