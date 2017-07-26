@@ -10,9 +10,26 @@ grapeCG is CrossGate Emulator for golang
 
 发起本项目并不是为了盈利纯粹就是个人爱好，我比较喜欢这个游戏就深入研究了这个游戏在韩国地区泄露的服务端的协议，并模拟了基本的框架和加解密，目的是为了借CG这款游戏来完善在GO语言方面的游戏服务端框架编写。
 
+本人曾经在2016年写过一个C#版本，暂不开源了，但是基本上是基于C++的，由于代码过多依赖C++而且未设计跨平台代码，感觉有点恶心，后来改为使用GO编写，所有算法纯GO，不依赖任何C/C++库。
+
+当然主要目的是为了学习并深入研究GO语言可以实现多么轻量级的高并发模型。
+
+
 # 目前可以做什么
+
+> 但是介于游戏版权方，本模拟器不会做任何实际战斗代码，只会逛地图，如果你自己愿意承担任何法律责任可以FORK过去自己添加代码，与本人无关。
 
 目前本模拟器刚刚起步，应该只可以做到基本的逛地图，而本人并不是特别有空，所以也就是学习之用，慢慢完善吧。
 
 如果框架编写差不多了，基本上也就不会再去维护和更新了。
 
+# Res/Data缺少数据
+
+由于数据文件过于庞大，建议自行找CrossGate泄漏服务端的DATA目录进去即可
+
+# 依赖项目
+
+* grapeNet (https://github.com/koangel/grapeNet)
+* seelog (https://github.com/cihub/seelog)
+* mysql (https://github.com/go-sql-driver/mysql)
+* macaron (https://github.com/go-macaron/macaron)

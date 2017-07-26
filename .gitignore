@@ -3,3 +3,5 @@ Tests/Network_test/debug
 /Tests/Network_test/log
 /test/Network_test/log
 /test/Network_test/debug
+/logs
+debug
