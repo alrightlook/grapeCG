@@ -2,6 +2,8 @@
 
 GrapeCG是CrossGate（大陆译为：魔力宝贝）的一款服务器端模拟器，仅仅模拟部分功能。
 
+grapeCG is CrossGate Emulator for golang
+
 # 发起原因
 
 本人在上学时特别喜欢CG这款游戏，但是当时碍于学习几乎被限制，后来再玩也就不是那个感觉了，其实是CG这款游戏让我立志进入游戏行业，并一步步走到今日。
